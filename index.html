@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>测试网页</title>
+  <link type="text/css" rel="styleSheet" href="./css/index.css" />
+</head>
+
+<body>
+  <div id="top">
+    <div class="logoContent">
+      <div class="logo">
+        LOGO
+      </div>
+      <div class="lagOut">
+        <img src="img/setUp.png">
+        <img src="img/ring.png">
+        <p>Log Out</p>
+      </div>
+    </div>
+  </div>
+  <!--网页的头部信息-->
+
+  <div id="firstWord">
+    Audience Overview
+  </div>
+
+  <div id="selectWord">
+    <p class="word">Roseville, CA</p>
+
+    <div class="selectOptions">
+      <p>DASHBOARD</p>
+      <p>PROJECTS</p>
+      <p>CALENDAR</p>
+      <p>MAILBOX</p>
+      <p>SETTINGS</p>
+    </div>
+  </div>
+  <!--网页的导航条-->
+
+  <div id="totalTable">
+    <div id="table">
+      <div class="shuffling">
+        <img src="img/left.png" id="left">
+        <div class="circle">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <img src="img/right.png" id="right">
+      </div>
+    </div>
+    <!--轮播图-->
+
+    <div id="from">
+      <div class="fromWord">
+        <p>Support Requests</p>
+        <button>View All</button>
+      </div>
+
+      <div class="formTable" style="overflow-y:scroll;height: 180px;overflow-x:hidden;">
+        <table class="table">
+          <tr>
+            <th>TIME</th>
+            <th>USER NAME</th>
+            <th>STATUS</th>
+          </tr>
+
+          <tr>
+            <th>9:45pm</th>
+            <th>28020@qq.com</th>
+            <th>
+              <button>solved</button>
+            </th>
+          </tr>
+
+          <tr>
+            <th>9:45pm</th>
+            <th>28020@qq.com</th>
+            <th>
+              <button>solved</button>
+            </th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!--数据表格-->
+  </div>
+
+
+  <div class="line">
+    <p class="smallMsg">曲线图数据展示</p>
+    <div class="seven_echarts" id="seven"></div>
+  </div>
+  <!--曲线图-->
+
+  <div id="twoEcharts">
+    <div class="EcharsChild">
+      <div class="seven_echarts" id="circleEcharts"></div>
+    </div>
+
+    <div class="EcharsChild">
+      <div class="seven_echarts" id="barEcharts"></div>
+    </div>
+  </div>
+
+  <!--饼状图和柱状图-->
+
+  <div id="bottom">
+    <div class="bottomContent">
+      <div class="bottomLogo">
+        <p>LOGO</p>
+      </div>
+
+      <div class="clickContent">
+        <p>NEWS</p>
+        <p>CHANNELS</p>
+        <p>OVERVIEW</p>
+        <p>TIMELINE</p>
+      </div>
+
+      <div class="clickContent">
+        <p>SPORT</p>
+        <p>CULTURE</p>
+        <p>NATURE</p>
+        <p>MUSIC</p>
+      </div>
+
+      <div class="clickContent">
+        <p>WEATHER</p>
+        <p>AUTOS</p>
+        <p>LOCAL</p>
+        <p>SHOP</p>
+      </div>
+
+      <div class="clickContent">
+        <p>FUTURE</p>
+        <p>FOOD</p>
+        <p>EARTH</p>
+        <p>TV</p>
+      </div>
+
+      <div class="clickContent">
+        <p>TRAVEL</p>
+        <p>RADIO</p>
+      </div>
+    </div>
+  </div>
+  <!--底部导航栏-->
+
+  <div id="tail"></div>
+
+
+
+
+</body>
+
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts-all-3.js"></script>
+<script type="text/javascript" src="./js/navigation.js"></script>
+<script type="text/javascript" src="./js/shuffling.js"></script>
+<script type="text/javascript" src="./js/echarts.js"></script>
+<script type="text/javascript" src="./js/bottom.js"></script>
+
+
+</html>
